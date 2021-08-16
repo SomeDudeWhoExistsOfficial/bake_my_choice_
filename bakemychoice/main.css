@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
+h1 {
+    color: blue;
+    font-family: Dancing Script;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    bottom: -100px;
+}
+img {
+  border-radius: 50px;
+}
+
+button {
+  margin: 3px auto 0;
+  padding: 20px 25px;
+  position: relative;
+  bottom: 500px;
+  top: 500px;
+  left: 555px;
+  right: 555px;
+  background-color: #f7e98e;
+  font-size: 30px;
+  border: 1px solid #000;
+}
+
+button:hover {
+  background-color: #ffd700;
+
+}
+
+button:active {
+  background-color: #daa520;
+}
